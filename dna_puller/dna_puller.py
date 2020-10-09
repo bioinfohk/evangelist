@@ -83,7 +83,7 @@ class DnaPuller:
               
     # creating path for Ensembl FTP server based on animal kind and type of requested dna 
     def ftp_cwd(self, species, type):
-        if ('dna' in type):
+        if 'dna' in type:
               return '/pub/release-101/fasta/' + species + '/' + 'dna' + '/'
         else:
               return '/pub/release-101/fasta/' + species + '/' + type + '/'
