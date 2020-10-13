@@ -60,7 +60,7 @@ class GCPlot:
 
 			index.append(start)
 			current_gc.append(GC(window))
-			current_uppercase_ratio.append(uppercase_ratio(window) * 100)
+			current_uppercase_ratio.append(uppercase_ratio(window))
 
 		return pd.DataFrame({'gc': current_gc, 'upper': current_uppercase_ratio}, index = index)
 
@@ -80,7 +80,7 @@ class GCPlot:
 			scatter = ax.scatter(df.index, df['gc'], c=df['upper'], vmin=0, vmax=1, marker='.', cmap='jet', alpha=alpha)
 
 			colorbar = fig.colorbar(scatter, ax=ax)
-			colorbar.set_label('Uppercase letters %')
+			colorbar.set_label('Uppercase letters ratio')
 			colorbar.set_alpha(1)
 			colorbar.draw_all()
 
