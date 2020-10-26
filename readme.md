@@ -16,4 +16,4 @@ This notebook provides brief introduction how to use dna_puller and gnuplot_gene
 
 ## Jupyter notebook for NCBI
 
-This notebook provides brief introduction how to download data fron NCBI database using csv file from genome list of NCBI, sliding_window parser and gnuplot_generator to perfom same analysis and charts like in Enseml one.
+This notebook provides brief introduction how to download data from NCBI database using csv file from genome list of NCBI, sliding_window parser and gnuplot_generator to perfom same analysis and charts like in Enseml one.

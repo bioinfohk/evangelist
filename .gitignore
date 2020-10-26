@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__
+.idea
+
+dna_sm/
+/csv/
+/jsons/
+
+*.png
